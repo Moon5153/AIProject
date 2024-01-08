@@ -1,0 +1,71 @@
+.themed-container {
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 123, 255, .15);
+    border: 1px solid rgba(0, 123, 255, .2);
+}
+.box-container{
+        box-sizing: border-box;
+        border: 5px solid transparent;
+        background-clip:padding-box;
+
+    padding:8px;
+    background-color: rgba(255, 255, 255, 0.629);
+    box-shadow: 5px 5px 5px rgba(110, 107, 107, 0.495);
+}
+.margin{
+    margin-bottom: 100px;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    color: rgb(237, 230, 230);
+    font-weight: bold;
+}
+fieldset{
+	padding: 10px;
+	border-width: 20px;
+	border-style: groove;
+    border-color: #5a5a5a;
+	background-color: #fff;
+}
+
+fieldset h1 {
+	color: #5a5a5a;
+	padding-bottom: 20px;
+	margin-left: 35px;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 28px;
+	text-align: center;
+}
+
+fieldset label {
+    font-weight: bold;
+    color: #5a5a5a;
+}
+fieldset .form-control{
+	padding:8px;
+	color: #938c8c
+}
+fieldset input:focus{
+	color: #000;
+}
+fieldset .btn
+{
+	color: #fff;
+	background-color: #5a5a5a;
+	border-radius: 3px;
+	padding: 13px 39px;
+	text-align: center;
+	letter-spacing: 0.9px;
+	text-decoration: none;
+	font-size: 16px;
+	box-shadow: 0px 1px 3px 0px #5a5a5a;
+	margin-top: 15px;
+    width: 100%;
+}
